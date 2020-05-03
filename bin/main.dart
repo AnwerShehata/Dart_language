@@ -1,13 +1,11 @@
 //import '../lib/new Test/Page_ForLoop.dart';
 import '../lib/new Test/Page_List.dart';
+import '../lib/Example/ExampleMap.dart';
 
   void main(){
 
-    var as = new cl_List();
 
-//    cl_List().an_noi();
-//    cl_List().an_MinList();
-//    cl_List().an_printListTow();
-  cl_List().an_printList();
+    cl_ExampleMap().an_EeampleMap1();
+
 
   }
