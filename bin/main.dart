@@ -1,11 +1,5 @@
-//import '../lib/new Test/Page_ForLoop.dart';
-import '../lib/new Test/Page_List.dart';
-import '../lib/Example/ExampleMap.dart';
+import 'package:Dart_language/new%20Test/Page_ForLoop.dart';
 
-  void main(){
-
-
-    cl_ExampleMap().an_EeampleMap1();
-
-
-  }
+void main() {
+  textForLop.an_KeyValue();
+}

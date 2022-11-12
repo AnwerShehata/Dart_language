@@ -75,3 +75,5 @@
 
     age == 20 ? print("ok") : print('No');
   }
+
+

@@ -4,7 +4,7 @@ import 'dart:core';
 
   class cl_ExampleMap {
 
-    void an_EeampleMap1(){
+   static void an_EeampleMap1(){
 
       List<int> numbers  = [1,2,3,4,5,6,7,8,9,10,11,12,13];
       List<String> signs = ['Hearts' , 'Diamonds' , 'clubs' , 'spade'];
