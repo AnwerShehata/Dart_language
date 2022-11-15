@@ -1,12 +1,30 @@
 import 'dart:math';
 
 class textForLop {
+  static void an_while() {
+    int age = 1;
+    while (age <= 20) {
+      print(age);
+      if (age == 10) continue;
+      age++;
+    }
+  }
+
   // طباعة الاسماء التي في الستة باستخدام For Loop -------------
   static void an_ForLoo() {
     List student = ['anwer', 'ali', 'ahmed', 'nor'];
 
-    for (int index = 0; index < student.length; index++) {
-      print(student[index]);
+    // for (int index = 0; index < student.length; index++) {
+    //   if(student[index] == "ahmed") break;
+    //   print(student[index]);
+    // }
+
+    // continue تجاهل
+    // break ايقاف
+    int age;
+    for (age = 10; age <= 30; age++) {
+      if (age > 20) continue;
+      print(age);
     }
   }
 
@@ -48,24 +66,11 @@ class textForLop {
         'adrees': 'sohage',
         'phone': 67782374
       },
-
-      {
-        'name': 'Ali Kaled',
-        'age': 29,
-        'adrees': 'sohage',
-        'phone': 67782374
-      },
-
-      {
-        'name': 'Ahmed Gmail',
-        'age': 21,
-        'adrees': 'sohage',
-        'phone': 67782374
-      },
-
+      {'name': 'Ali Kaled', 'age': 29, 'adrees': 'sohage', 'phone': 67782374},
+      {'name': 'Ahmed Gmail', 'age': 21, 'adrees': 'sohage', 'phone': 67782374},
     ];
 
-    for(int i = 0 ; i < DataStudent.length ; i ++){
+    for (int i = 0; i < DataStudent.length; i++) {
       print(DataStudent[i]);
 
       // print(
